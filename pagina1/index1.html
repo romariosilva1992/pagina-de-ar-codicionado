@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC Solutions - Vendas e Manutenção de Ar Condicionado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="https://wa.me/5511999999999" target="_blank" class="logo-link">
+        <img src="img1.jpg" alt="Logo da empresa" class="logo">
+    </a>
+    <header>
+        <div class="container">
+            <h1>Sua Melhor Escolha em <span class="highlight">Climatização</span></h1>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Transforme seu ambiente com as melhores soluções em ar condicionado</h2>
+        <!-- Aqui você pode adicionar mais conteúdo, como descrições de produtos, benefícios, etc. -->
+    </div>
+</body>
+<body>
+    <div class="header">
+        <h1>AC Solutions</h1>
+        <p>Sua Melhor Escolha em Climatização</p>
+    </div>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h2>Conforto Térmico Premium</h2>
+            <p>Transforme seu ambiente com as melhores soluções em ar condicionado</p>
+            <button onclick="scrollToProducts()">Conheça Nossos Produtos</button>
+        </div>
+    </div>
+
+    <div class="products" id="products"></div>
+
+    <div class="service-form">
+        <h3>Agende uma Visita Técnica</h3>
+        <form id="serviceForm">
+            <div class="form-group">
+                <label>Nome Completo</label>
+                <input type="text" id="name" required placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" id="email" required placeholder="seu@email.com">
+            </div>
+            <div class="form-group">
+                <label>Telefone</label>
+                <input type="tel" id="phone" required placeholder="(11) 99999-9999">
+            </div>
+            <div class="form-group">
+                <label>Tipo de Serviço</label>
+                <select id="serviceType" required>
+                    <option value="">Selecione um serviço...</option>
+                    <option value="installation">Instalação</option>
+                    <option value="maintenance">Manutenção Preventiva</option>
+                    <option value="repair">Reparo</option>
+                    <option value="consultation">Consultoria Técnica</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Mensagem</label>
+                <textarea id="message" rows="4" placeholder="Descreva sua necessidade..."></textarea>
+            </div>
+            <button type="submit">Solicitar Atendimento</button>
+        </form>
+    </div>
+
+    <a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.175.584 4.21 1.598 5.949L.056 24l6.172-1.502C8.157 23.457 10.021 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm7.063 16.844c-.273.822-1.622 1.527-2.649 1.727-.686.135-1.588.244-4.597-.976-3.861-1.568-6.359-5.44-6.552-5.689-.184-.249-1.551-2.065-1.551-3.939 0-1.874.987-2.8 1.337-3.18.289-.311.624-.362.833-.362l.598.006c.192.003.456-.057.713.533.265.611.902 2.106.982 2.257.081.151.136.326.023.533-.112.206-.169.334-.332.528-.164.194-.345.435-.494.584-.165.167-.337.346-.145.68.191.334.852 1.428 1.831 2.314 1.261 1.143 2.322 1.497 2.651 1.665.329.169.523.145.717-.082s.831-1.969.952-2.115c.12-.146.197-.121.523-.073.326.049 2.077.979 2.434 1.158.358.18.593.268.679.413.085.146.085.854-.188 1.678z"/>
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
