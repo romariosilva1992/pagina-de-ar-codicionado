@@ -1,5 +1,5 @@
 # pagina-de-ar-codicionado
-<img src="img4.png" alt="Logo da AC Solutions" width="200"/>
+<img src="img4.png" alt="Logo da AC Solutions" width="800"/>
 O código da página de vendas da AC Solutions é uma aplicação web completa e bem estruturada para uma empresa de vendas e manutenção de ar condicionado. Vou explicar os principais componentes e funcionalidades:
 
 ## Estrutura HTML
